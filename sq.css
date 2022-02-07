@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#button{
+margin-top: 20px;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.pop{
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+    opacity: 0.7;
+    display: none;
+}
+.up{
+    height: 60%;
+    width: 40%;
+    position: fixed;
+    z-index: 2;
+    background-color: white;
+    top: 20%;
+    left: 30%;
+    border-radius: 15px;
+    display: none;
+}
+#ajouter{
+    margin-top: 10px;
+}

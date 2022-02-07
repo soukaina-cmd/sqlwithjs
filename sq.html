@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/js/bootstrap.js">
+    <link rel="stylesheet" href="sq.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="pop"></div>
+        <div class="up">
+            <div class="row">
+                <div class="col-lg-1 offset-lg-10 close">X</div>
+                <div class="col-lg-2 offset-lg-1">CIN:</div>
+                <div class="col-lg-7"><input type="text" class="data form-control" id="inpt_cin"></div>
+                <div class="col-lg-2 offset-lg-1">Nom:</div>
+                <div class="col-lg-7"><input type="text" class="data form-control" id="inpt_nom"></div>
+                <div class="col-lg-2 offset-lg-1">Prenom:</div>
+                <div class="col-lg-7"><input type="text" class="data form-control" id="inpt_prenom"></div>
+                <div class="col-lg-2 offset-lg-1">Age:</div>
+                <div class="col-lg-7"><input type="number" class="data form-control" id="inpt_age"></div>
+                <div class="col-lg-7 offset-lg-3">
+                    <button type="button" class="btn btn-success btn-lg btn-block" id="ajouter">Ajouter</button>
+                    <button type="button" class="btn btn-danger btn-lg btn-block annuler">Annuler</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div  class="col-lg-4 offset-lg-4">
+                <button type="button" class="btn btn-success btn-lg btn-block" id="button">Ajouter nouvelle personne</button>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <h2>Affichage de la table</h2>
+                <table class="table table-bordered" id="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">CIN</th>
+                        <th scope="col">Nom</th>
+                        <th scope="col">Prenom</th>
+                        <th scope="col">Age</th>
+                        <th scope="col">operation</th>
+                      </tr>
+                    </thead>
+                    <tbody id="tbd">
+                     
+                    </tbody>
+                  </table>
+                </div>
+            </div>
+    </div>
+</body>
+<script src="sq.js"></script>
+</html>
